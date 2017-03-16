@@ -1,4 +1,6 @@
-import patterns.Singleton
+package singleton
+
+import patterns.singleton.Singleton
 import spock.lang.Specification;
 
 class SingletonTest extends Specification {
@@ -9,7 +11,5 @@ class SingletonTest extends Specification {
 
         expect:
         instance1.is(instance2)
-
-
     }
 }
